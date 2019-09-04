@@ -45,3 +45,46 @@ The following *optional* features are implemented:
 - Minimal and privacy focused analytics on the apps (https://github.com/electerious/Ackee as an alternative for Google Analytics)
 - Sign-in with Apple functionality and keep user emails private
 - Allow user donations through PayPal to cover cloud hosting costs.
+
+
+## Detailed Requirements
+
+Design
+...
+Development
+...
+Testing
+...
+Planning
+...
+Deployment
+...
+Other
+...
+
+Out of Scope	
+...
+
+
+### Design Spec (Design responsible)
+
+Prototype:
+	-
+
+Design:
+	-
+
+Other:
+	-
+
+### Technical Spec: Front End and Back End (Dev responsible)
+
+Technical Approach Description
+	-
+
+Todo (Technical Tasks & Assignees)
+	-
+
+Other
+	-
+
