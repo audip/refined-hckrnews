@@ -31,3 +31,17 @@ The following *required* functionality is completed:
 The following *optional* features are implemented:
 - [ ] User can download desktop app from a public AWS S3 bucket
 - [ ] User can engage on HackerNews similar to [Apollo](https://apolloapp.io/) or [Reddit](https://apps.apple.com/us/app/reddit/id1064216828) official apps
+
+## Technology Stack
+
+- Hosted on AWS Lambda or Google App Engine
+- Hosted databases such as mLab or RDS
+- Hosted exception tracking with sentry.io
+- Cloud-native 12-factor backend application
+
+## Philosophy
+
+- No advertising on the apps whatsoever
+- Minimal and privacy focused analytics on the apps (https://github.com/electerious/Ackee as an alternative for Google Analytics)
+- Sign-in with Apple functionality and keep user emails private
+- Allow user donations through PayPal to cover cloud hosting costs.
