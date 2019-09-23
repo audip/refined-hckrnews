@@ -70,7 +70,7 @@ The following *optional* features are implemented:
 
 Prototype: Screen mockups of the Refined HckerNews app
 <p align="center">
-    <img src="ScreenMockups.jpg" alt="Screens of the Refined HckerNews app" />
+    <img src="./docs/ScreenMockups.jpg" alt="Screens of the Refined HckerNews app" />
 </p>
 
 Design:
