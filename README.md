@@ -22,21 +22,23 @@ Most mobile clients lack dark mode functionality and aren't designed so that you
 
 ### Minimum Viable Product (MVP)
 The following *required* functionality is completed:
-- [ ] User can filter the list of articles by Top 10, Top 20, Top 50%, All
-- [ ] User can read the news articles and comments offline (background refresh)
-- [ ] User can switch between light/dark mode
-- [ ] User can catch up to missed days of articles/news
-- [ ] User can view/read webpages without leaving the app
+- [ ] User can view the `Home Tab` screen to filter the list of articles by Top 10, Top 20, Top 50%, All
+- [ ] User can view the `Story Detail` screen to view the comments and link to article
+  - Ability to view/read webpages without leaving the app
+- [ ] User can view the `Settings` screen to edit basic settings
+	- Appearance (font, text size, reader mode)
+	- Theme (light mode / gray mode / OLED dark mode)
+	- App Icon (customizable icons for light, dark, colorful and seasonal)
+	- Background sync (30mins, 60mins, etc.)
+- [ ] User can read the news articles and comments offline (background sync/refresh)
+- [ ] User can catch up to missed days of articles/news (yesterday, day before and endless scroll)
 
 ### Phase 2
 The following *optional* functionality is completed:
 - [ ] User can read text summary of article
 - [ ] User can search HackerNews from the search tab
 - [ ] User can customize the following settings
-	- Appearance (font, text size, reader mode)
-	- Theme
 	- Profile (posts, comments)
-	- App Icon
 	- Connect their YCombinator account
 	- Ability to provide feedback/feature requests
 	- Ability to donate to cover development costs
@@ -47,6 +49,8 @@ The following *optional* functionality is completed:
 	- Tap to collapse/hide a comment thread
 - [ ] User can sync their reading across devices
 - [ ] User can download iOS/Android app from the App Store or Play Store
+	- Conform to iOS 13 SDK
+	- Conform to Android 10 SDK
 
 ### Future Work
 The following *optional* features are implemented:
