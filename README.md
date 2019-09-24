@@ -33,18 +33,18 @@ The following *optional* functionality is completed:
 - [ ] User can read text summary of article
 - [ ] User can search HackerNews from the search tab
 - [ ] User can customize the following settings
-		- Appearance (font, text size, reader mode)
-		- Theme
-		- Profile (posts, comments)
-		- App Icon
-		- Connect their YCombinator account
-		- Ability to provide feedback/feature requests
-		- Ability to donate to cover development costs
+	- Appearance (font, text size, reader mode)
+	- Theme
+	- Profile (posts, comments)
+	- App Icon
+	- Connect their YCombinator account
+	- Ability to provide feedback/feature requests
+	- Ability to donate to cover development costs
 - [ ] User can engage on HackerNews similar to [Apollo](https://apolloapp.io/) or [Reddit](https://apps.apple.com/us/app/reddit/id1064216828) official apps
-		- Comments
-		- Upvote/downvote on comments and articles
-		- Writing Editor to comment
-		- Tap to collapse/hide a comment thread
+	- Comments
+	- Upvote/downvote on comments and articles
+	- Writing Editor to comment
+	- Tap to collapse/hide a comment thread
 - [ ] User can sync their reading across devices
 - [ ] User can download iOS/Android app from the App Store or Play Store
 
@@ -67,39 +67,38 @@ The following *optional* features are implemented:
 
 ### Design
 
-*Spec*
+**Prototype: Screen mockups of the Refined HckerNews app**
 
-Prototype: Screen mockups of the Refined HckerNews app
 <p align="center">
     <img src="./docs/ScreenMockups.jpg" alt="Screens of the Refined HckerNews app" />
 </p>
 
 Design:
-	- Post an ad on Fiverr to get a polished design of the app
+  - Post an ad on Fiverr to get a polished design of the app
 
 Other:
-	- Post an ad on Fiverr to get custom app icons for the app
+  - Post an ad on Fiverr to get custom app icons for the app
 
 ### Development
 
-*Technical Spec: Technical Approach Description*
+#### Technical Spec: Technical Approach Description
 
-Frontend Mobile Apps:
+**Frontend Mobile Apps:**
 
 Most users (or readers) will read HackerNews on mobile apps and so [React Native](https://facebook.github.io/react-native/) is a library that will be help quickly write code for Android and iOS that can be compiled into native-application code. With the community support for React Native, it serves as a great starting point for documentation, tutorials and searching for solutions to common problems. The react native apps can fetch data from [HackerNews API](https://github.com/HackerNews/API) and [HnRSS](https://edavis.github.io/hnrss) where needed.
 
 For phase 2, Google's firebase project provides excellent client libraries that will solve the use-cases of authentication, syncing state/data across devices and keeping track of user profiles. A backend server with text summarizer API written in Python's Flask/Django framework and deployed with [Zappa](https://github.com/Miserlou/Zappa) to AWS Lambda can take as input a URL to an article and respond with summarized text in JSON. [HnRSS](https://edavis.github.io/hnrss) provides an [Algolia API](https://hn.algolia.com/api) to search HackerNews for the search tab.
 
-Todo (Technical Tasks & Assignees)
-	- Discovery:
-			- Familiarise with the react native library
-			- Develop a Proof of Concept app with react native tutorial/example
+**Todo (Technical Tasks & Assignees)**
+- Discovery:
+  - Familiarise with the react native library
+  - Develop a Proof of Concept app with react native tutorial/example
 
 ###	Testing
 
 User Acceptance Testing
-	- Collect feedback from product managers
-	- Collect feedback from beta users
+- Collect feedback from product managers
+- Collect feedback from beta users
 
 ### Deployment
 	...
