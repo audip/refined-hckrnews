@@ -1,6 +1,6 @@
 # Refined HackerNews
 
-## Goal
+## Goals
 
 To build a refined, privacy-focused, lightweight and elegant app for reading [Hackernews](https://news.ycombinator.com/), improves on [hckrnews.com](https://hckrnews.com) website
 
@@ -45,6 +45,7 @@ The following *optional* functionality is completed:
 		- Upvote/downvote on comments and articles
 		- Writing Editor to comment
 		- Tap to collapse/hide a comment thread
+- [ ] User can sync their reading across devices
 - [ ] User can download iOS/Android app from the App Store or Play Store
 
 ### Future Work
@@ -66,7 +67,7 @@ The following *optional* features are implemented:
 
 ### Design
 
-*Spec (Design responsible)*
+*Spec*
 
 Prototype: Screen mockups of the Refined HckerNews app
 <p align="center">
@@ -81,13 +82,18 @@ Other:
 
 ### Development
 
-*Technical Spec: Front End and Back End*
+*Technical Spec: Technical Approach Description*
 
-Technical Approach Description
-	-
+Frontend Mobile Apps:
+
+Most users (or readers) will read HackerNews on mobile apps and so [React Native](https://facebook.github.io/react-native/) is a library that will be help quickly write code for Android and iOS that can be compiled into native-application code. With the community support for React Native, it serves as a great starting point for documentation, tutorials and searching for solutions to common problems. The react native apps can fetch data from [HackerNews API](https://github.com/HackerNews/API) and [HnRSS](https://edavis.github.io/hnrss) where needed.
+
+For phase 2, Google's firebase project provides excellent client libraries that will solve the use-cases of authentication, syncing state/data across devices and keeping track of user profiles. A backend server with text summarizer API written in Python's Flask/Django framework and deployed with [Zappa](https://github.com/Miserlou/Zappa) to AWS Lambda can take as input a URL to an article and respond with summarized text in JSON. [HnRSS](https://edavis.github.io/hnrss) provides an [Algolia API](https://hn.algolia.com/api) to search HackerNews for the search tab.
 
 Todo (Technical Tasks & Assignees)
-	-
+	- Discovery:
+			- Familiarise with the react native library
+			- Develop a Proof of Concept app with react native tutorial/example
 
 ###	Testing
 
